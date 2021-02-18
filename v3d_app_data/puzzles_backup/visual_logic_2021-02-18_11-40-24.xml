@@ -1,0 +1,39 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="719.5" scrolly="605.5" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="803.8594194638661" scrolly="622.6310897534273" scale="0.9644077386876783">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id=":W`t~#!{gO1xw%_F6Tz_" type="">playing</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="stopAnimation" id="g?U;(9*$22Ti;g%cDNvm" x="-710" y="-570">
+      <value name="VALUE">
+        <shadow type="animationList" id="H=!TnXY{IjU.oJ16+bun">
+          <field name="FIELDNAME">Empty</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="8SML($0$X^qc9+VgzCbJ" x="-690" y="-490">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="?CR]jsu]Y_DH./t]$!le">
+          <field name="FIELDNAME">Torus</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="variables_set" id="e#VWoQUH[d$wKGd*)BW:">
+          <field name="VAR" id=":W`t~#!{gO1xw%_F6Tz_">playing</field>
+          <value name="VALUE">
+            <block type="logic_boolean" id="ShE,L_/Gz./LIiiF{yAL">
+              <field name="BOOL">TRUE</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1252.4" viewport-y="150" viewport-w="643.6" viewport-h="643.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

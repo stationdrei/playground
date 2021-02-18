@@ -1,0 +1,31 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="719.5" scrolly="605.5" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="719.5" scrolly="605.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="8SML($0$X^qc9+VgzCbJ" x="-750" y="-650">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="?CR]jsu]Y_DH./t]$!le">
+          <field name="FIELDNAME">Torus</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="/[WO_/)_Q.7QJ27`f1PD">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopPingPong</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="ra.dBa$_=pU|GrsGYo)J">
+              <field name="FIELDNAME">Empty</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1252.4" viewport-y="150" viewport-w="643.6" viewport-h="643.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
